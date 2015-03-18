@@ -1,0 +1,39 @@
+Arduino: 1.6.1 (Windows 8.1), Placa:"Arduino Uno"
+
+event_driven.c: In function 'button_listen':
+
+event_driven.c:10:15: error: 'INPUT' undeclared (first use in this function)
+
+  pinMode(pin, INPUT);
+
+               ^
+
+event_driven.c:10:15: note: each undeclared identifier is reported only once for each function it appears in
+
+event_driven.c:11:9: error: 'Serial' undeclared (first use in this function)
+
+         Serial.print("Registrado botÃ£o no pino ");
+
+         ^
+
+event_driven.c: In function 'setup':
+
+event_driven.c:28:2: error: 'Serial' undeclared (first use in this function)
+
+  Serial.begin(9600);
+
+  ^
+
+event_driven.c: In function 'loop':
+
+event_driven.c:38:13: error: 'Serial' undeclared (first use in this function)
+
+             Serial.print("BotÃ£o do pino ");
+
+             ^
+
+Erro compilando.
+
+  Este relatório deveria ter mais informações
+  "Mostrar saída verbosa durante a compilação"
+  habilitado em Arquivo > Preferências.
